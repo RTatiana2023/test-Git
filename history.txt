@@ -1,0 +1,43 @@
+$ git log
+commit 89a76a0cc182af816f689fed548fb95e9f5981fd (HEAD -> main, origin/main, origin/HEAD)
+Author: RTatiana2023 <129595940+RTatiana2023@users.noreply.github.com>
+Date:   Sun May 14 20:12:48 2023 +0300
+
+    Create My-test-git
+
+commit ed8317d08c1709f10325b938df80144f1a89bab0
+Merge: 8402632 83b224c
+Author: RTatiana2023 <sycht2014@gmail.com>
+Date:   Sun May 14 19:24:05 2023 +0300
+
+    fixed conflict
+
+commit 84026325aead89ca7298b2580aae39f9ccc5cc00
+Author: RTatiana2023 <sycht2014@gmail.com>
+Date:   Sun May 14 19:04:38 2023 +0300
+
+    changes index file on main
+
+commit 83b224cbc3e19fa127438f8e5e1c58d3f4b18743 (new-branch)
+Author: RTatiana2023 <sycht2014@gmail.com>
+Date:   Sun May 14 18:41:50 2023 +0300
+
+    changes index file
+
+$ git log --merges
+commit ed8317d08c1709f10325b938df80144f1a89bab0
+Merge: 8402632 83b224c
+Author: RTatiana2023 <sycht2014@gmail.com>
+Date:   Sun May 14 19:24:05 2023 +0300
+
+    fixed conflict
+
+$ git branch
+* main
+  new-branch
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
